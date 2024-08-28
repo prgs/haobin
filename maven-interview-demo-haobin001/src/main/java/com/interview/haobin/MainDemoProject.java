@@ -3,8 +3,11 @@ package com.interview.haobin;
 import com.interview.haobin.util.StringUtilsBank;
 
 /**
- * This is the startup  class of the project
- *
+ * <pre>
+ *  This is the startup  class of the project
+ * Author: haobin
+ * Date: 2024/8/28
+ * </pre>
  */
 public class MainDemoProject
 {
