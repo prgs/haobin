@@ -14,7 +14,7 @@ public class StringUtilsBank {
 
         System.out.println("-------------------\n");
         String input2 = "abcccbad";
-        String output2 = removeConsecutiveString(input2);
+        String output2 = replaceConsecutiveString(input2);
     }
 
     /** <pre>
