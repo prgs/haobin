@@ -3,7 +3,7 @@ package com.interview.haobin;
 import com.interview.haobin.util.StringUtilsBank;
 
 /**
- * Hello world!
+ * This is the startup  class of the project
  *
  */
 public class MainDemoProject
