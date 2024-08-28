@@ -4,7 +4,7 @@ Dear Interviewer,
 
 Hello, This project is a Java Maven project that supports JDK 11.
 
-The **com.hsbc.interview.util.StringUtilsHsbc**.java  is my provided solution. The first step is implemented by `StringUtilsHsbc#removeConsecutiveString()`
+The  **com.interview.haobin.util.StringUtilsBank**.java  is my provided solution. The first step is implemented by `StringUtilsBank#removeConsecutiveString()`
 
 ​	
 
@@ -55,7 +55,7 @@ public static String removeConsecutiveString(String s) {
 
 
 
-and the second step is implemented by `com.hsbc.interview.util.StringUtilsHsbc#replaceConsecutiveString()`.
+and the second step is implemented by `StringUtilsBank#replaceConsecutiveString()`.
 
 ```java
 /** <pre>
@@ -105,21 +105,21 @@ public static String replaceConsecutiveString(String s) {
 
 
 
-The test Class is  com.hsbc.interview.haobin.StringUtilsHsbcTest
+The test Class is  StringUtilsBankTest
 
 ```java
-public class StringUtilsHsbcTest {
+public class StringUtilsBankTest {
     @Test
     public void testRemoveConsecutiveString() {
         String input = "aabcccbbad";  // abcccbad aabcccbbbadmffffmk abcccbadffgggaaAAAA
-        String output = StringUtilsHsbc.removeConsecutiveString(input);
+        String output = StringUtilsBank.removeConsecutiveString(input);
         assertEquals(output, "d");
     }
 
     @Test
     public void testReplaceConsecutiveString() {
         String input = "abcccbad";
-        String output = StringUtilsHsbc.replaceConsecutiveString(input);
+        String output = StringUtilsBank.replaceConsecutiveString(input);
         assertEquals(output, "d");
     }
 }
@@ -127,10 +127,10 @@ public class StringUtilsHsbcTest {
 
 
 
-You can also start the project using the following command. Once the project is up and running, it will automatically invoke the methods in the StringUtilsHsbc class to complete the tests.
+You can also start the project using the following command. Once the project is up and running, it will automatically invoke the methods in the StringUtilsBank class to complete the tests.
 
 ```commonlisp
 mvn clean compile package
-java -jar .\target\maven-hsbc-demo-haobin001-1.0-SNAPSHOT.jar
+java -jar .\target\maven-interview-demo-haobin001-1.0-SNAPSHOT.jar
 ```
 

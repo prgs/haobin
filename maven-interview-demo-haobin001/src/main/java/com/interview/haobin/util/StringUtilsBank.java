@@ -1,4 +1,4 @@
-package com.hsbc.interview.util;
+package com.interview.haobin.util;
 
 /**
  * <pre>
@@ -7,7 +7,7 @@ package com.hsbc.interview.util;
  * Date: 2024/8/28
  * </pre>
  */
-public class StringUtilsHsbc {
+public class StringUtilsBank {
     public static void main(String[] args) {
         String input = "aabcccbbad";  // abcccbad aabcccbbbadmffffmk abcccbadffgggaaAAAA
         String output = removeConsecutiveString(input);

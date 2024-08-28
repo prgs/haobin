@@ -1,22 +1,22 @@
-package com.hsbc.interview.haobin;
+package com.interview.haobin;
 
-import com.hsbc.interview.util.StringUtilsHsbc;
+import com.interview.haobin.util.StringUtilsBank;
 
 /**
  * Hello world!
  *
  */
-public class HsbcMain
+public class MainDemoProject
 {
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
         String input = "aabcccbbad";  // abcccbad aabcccbbbadmffffmk abcccbadffgggaaAAAA
-        StringUtilsHsbc.removeConsecutiveString(input);
+        StringUtilsBank.removeConsecutiveString(input);
 
         System.out.println("\n");
 
         String input2 = "abcccbad";
-        StringUtilsHsbc.replaceConsecutiveString(input2);
+        StringUtilsBank.replaceConsecutiveString(input2);
     }
 }

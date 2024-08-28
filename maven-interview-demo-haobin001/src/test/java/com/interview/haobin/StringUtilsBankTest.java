@@ -1,6 +1,6 @@
-package com.hsbc.interview.haobin;
+package com.interview.haobin;
 
-import com.hsbc.interview.util.StringUtilsHsbc;
+import com.interview.haobin.util.StringUtilsBank;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -13,18 +13,18 @@ import static org.junit.Assert.assertTrue;
  * Date: 2024/8/28
  * </pre>
  */
-public class StringUtilsHsbcTest {
+public class StringUtilsBankTest {
     @Test
     public void testRemoveConsecutiveString() {
         String input = "aabcccbbad";  // abcccbad aabcccbbbadmffffmk abcccbadffgggaaAAAA
-        String output = StringUtilsHsbc.removeConsecutiveString(input);
+        String output = StringUtilsBank.removeConsecutiveString(input);
         assertEquals(output, "d");
     }
 
     @Test
     public void testReplaceConsecutiveString() {
         String input = "abcccbad";
-        String output = StringUtilsHsbc.replaceConsecutiveString(input);
+        String output = StringUtilsBank.replaceConsecutiveString(input);
         assertEquals(output, "d");
     }
 }
